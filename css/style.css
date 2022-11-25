@@ -1,0 +1,428 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6,{
+	font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.main-title{
+	color: #1d4c8b;
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+/******* header-section ******/
+.header-section{
+	background-color: #b0d3e7;
+	padding-top: 50px;
+}
+.header-section .menu .nav-item .nav-link{
+	color: #1d4c8b;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 60px;
+}
+.header-section .banner .banner-left-content h1{
+	width: 95%;
+	color: #1d4c8b;
+	font-size: 150px;
+	line-height: 150px;
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 50px;
+}
+.header-section .banner .banner-right-content img{
+	width: 100%;
+	margin: 0 auto;
+}
+.header-section .banner .banner-right-content{
+	text-align: center;
+}
+
+/******* food-section ******/
+.food-section{
+	background-color: #fff;
+	text-align: center;
+	padding: 80px 0px;
+}
+.food-section .food-card{
+	padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+.food-section .food-card .card{
+	background: #1d4c8b;
+	border: none;
+	text-align: center;
+	padding: 40px 20px;
+	border-radius: 0px;
+	margin: 0px 20px;
+}
+.food-section .food-card .card img{
+	width: 50px;
+	margin: 0 auto;
+}
+.food-section .food-card .card .card-last-img{
+	width: 35px;
+}
+.food-section .food-card .card h6{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 20px;
+}
+.food-section .food-card .card p{
+	color: #fff8ee;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+.food-section .food-card .card-p{
+	text-transform: uppercase;
+}
+/******* gallery-section ******/
+.gallery-section .container{
+	max-width: 99%;
+	padding: 0px;
+	margin: 0px;
+}
+.gallery-section .col-lg-6{
+	padding: 0px;
+	margin: 0px;
+}
+.gallery-section .gallery-item img{
+	width: 100%;
+	transition: all ease 0.3s;
+}
+.gallery-section .gallery-item .text h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #1d4b8a;
+	text-align: center;
+}
+.gallery-section .gallery-item{
+	transition: all ease 0.3s;
+	overflow: hidden;	
+}
+.gallery-section .gallery-item:hover img{
+	transform: scale(1.1)
+}
+.gallery-section .gallery-item .text{
+	width: auto;
+	overflow: hidden;
+	background-color: rgba(201, 76, 76, 0.3)!important;
+	margin-top: -68px;
+	padding: 15px 0px;
+}
+/******* contact-section ******/
+.contact-section{
+	background-color: #fff8ee;
+	text-align: center;
+	padding: 80px 0px;
+}
+.contact-section .contact-form form{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.contact-section .contact-form form .form-control{
+	background: transparent;
+	border: 3px solid #1d4b8a;
+	border-radius: 0;
+	padding: 15px 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+.contact-section .contact-form form .form-control::placeholder{
+	color: #1d4b8a;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.contact-section .contact-form form .btn{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	background: #1d4b8a;
+	padding: 15px 50px;
+	margin-top: 20px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: 1px solid #1d4b8a;
+	transition: all ease 0.3s;
+}
+.contact-section .contact-form form .btn:hover{
+	background: #fff;
+	color: #1d4b8a;
+}
+.contact-section .contact-form form .form-control:focus{
+	box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+/******* footer-section ******/
+.footer{
+	padding: 80px 0px;
+	background: #1d4b8a;
+}
+.footer h6{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #f5f0e9;
+}
+.footer .footer-title{
+	text-transform: uppercase;
+}
+.footer p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 11px;
+	color: #f5f0e9;	
+}
+.footer .subscribe{
+	margin-top: 50px;
+}
+.footer form{
+	width: 62%;
+}
+.footer form .form-control{
+	background: transparent;
+	border: 2px solid #f5f0e9;
+	border-radius: 0px;
+	color: #fff;
+	padding: 13px 20px;
+}
+.footer form .form-control::placeholder{
+	color: #f5f0e9;
+}
+.footer form .form-control:focus{
+	box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%);
+}
+.footer form .btn{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #1d4b8a;
+	text-align: center;
+	background: #fff;
+	padding: 15px 50px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	transition: all ease 0.3s;
+}
+/******* footer-bottom-section ******/
+.footer-bottom{
+	padding: 20px 0px 10px 0px;
+	background: #fff8ee;
+}
+.footer-bottom .copyright p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #1d4b8a;
+	text-align: center;
+}
+
+/******* footer-bottom-section ******/
+
+@media (min-width: 279px) and (max-width: 319px) {
+    .header-section .banner .banner-left-content h1 {
+    	width: 100%;
+	    font-size: 75px;
+	    line-height: 75px;
+	}
+	.main-title {
+	    font-size: 30px;
+	}
+	.food-section {
+	    padding: 60px 0px;
+	}
+	.food-section .food-card {
+	    padding-top: 20px;
+	    width: 100%;
+	}
+	.food-section .food-card .card {
+		margin: 20px 0px;
+	}
+	.contact-section .contact-form form {
+	    width: 90%;
+	    padding-top: 20px;
+	}
+	.contact-section {
+		padding: 60px 0px;
+	}
+	.footer form .form-control {
+	    width: 100%;
+	}
+	.footer form {
+	    width: 100%;
+	}
+	.gallery-section .container {
+	    max-width: 96%;
+	}
+	.header-section .menu .nav-item .nav-link {
+	    text-align: center;
+	    margin-left: 0px;
+	}
+	.footer {
+	    text-align: center;
+	    padding: 60px 0px;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px){
+   .header-section .banner .banner-left-content h1 {
+    	width: 100%;
+	    font-size: 95px;
+	    line-height: 95px;
+	}
+	.main-title {
+	    font-size: 30px;
+	}
+	.food-section {
+	    padding: 60px 0px;
+	}
+	.food-section .food-card {
+	    padding-top: 20px;
+	    width: 100%;
+	}
+	.food-section .food-card .card {
+		margin: 20px 0px;
+	}
+	.contact-section .contact-form form {
+	    width: 90%;
+	    padding-top: 20px;
+	}
+	.contact-section {
+		padding: 60px 0px;
+	}
+	.footer form .form-control {
+	    width: 100%;
+	}
+	.footer form {
+	    width: 100%;
+	}
+	.gallery-section .container {
+	    max-width: 96%;
+	}
+	.header-section .menu .nav-item .nav-link {
+	    text-align: center;
+	    margin-left: 0px;
+	}
+	.footer {
+	    text-align: center;
+	    padding: 60px 0px;
+	}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-section .banner .banner-left-content h1 {
+    	width: 100%;
+	    font-size: 110px;
+	    line-height: 110px;
+	}
+	.main-title {
+	    font-size: 30px;
+	}
+	.food-section {
+	    padding: 60px 0px;
+	}
+	.food-section .food-card {
+	    padding-top: 20px;
+	    width: 100%;
+	}
+	.food-section .food-card .card {
+		margin: 20px 0px;
+	}
+	.contact-section .contact-form form {
+	    width: 90%;
+	    padding-top: 20px;
+	}
+	.contact-section {
+		padding: 60px 0px;
+	}
+	.footer form .form-control {
+	    width: 100%;
+	}
+	.footer form {
+	    width: 100%;
+	}
+	.gallery-section .container {
+	    max-width: 98%;
+	}
+	.header-section .menu .nav-item .nav-link {
+	    text-align: center;
+	    margin-left: 0px;
+	}
+	.footer {
+	    text-align: center;
+	    padding: 60px 0px;
+	}
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .header-section .banner .banner-left-content h1 {
+    	width: 100%;
+	    font-size: 163px;
+	    line-height: 163px;
+	}
+	.main-title {
+	    font-size: 40px;
+	}
+	.food-section {
+	    padding: 60px 0px;
+	}
+	.food-section .food-card {
+	    padding-top: 20px;
+	    width: 100%;
+	}
+	.food-section .food-card .card {
+		margin: 20px 0px;
+	}
+	.contact-section .contact-form form {
+	    width: 90%;
+	    padding-top: 20px;
+	}
+	.contact-section {
+		padding: 60px 0px;
+	}
+	.footer form .form-control {
+	    width: 100%;
+	}
+	.footer form {
+	    width: 85%;
+	}
+	.gallery-section .container {
+	    max-width: 98%;
+	}
+	.header-section .menu .nav-item .nav-link {
+	    text-align: center;
+	    margin-left: 0px;
+	}
+	.footer {
+	    text-align: center;
+	    padding: 60px 0px;
+	}
+}
+
+
